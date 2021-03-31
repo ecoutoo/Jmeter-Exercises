@@ -54,24 +54,6 @@
           <boolProp name="ISREGEX">true</boolProp>
         </JSONPathAssertion>
         <hashTree/>
-        <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion MoveSet" enabled="true">
-          <stringProp name="JSON_PATH">.move.name</stringProp>
-          <stringProp name="EXPECTED_VALUE"></stringProp>
-          <boolProp name="JSONVALIDATION">false</boolProp>
-          <boolProp name="EXPECT_NULL">false</boolProp>
-          <boolProp name="INVERT">false</boolProp>
-          <boolProp name="ISREGEX">true</boolProp>
-        </JSONPathAssertion>
-        <hashTree/>
-        <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion One Move" enabled="true">
-          <stringProp name="JSON_PATH"></stringProp>
-          <stringProp name="EXPECTED_VALUE"></stringProp>
-          <boolProp name="JSONVALIDATION">false</boolProp>
-          <boolProp name="EXPECT_NULL">false</boolProp>
-          <boolProp name="INVERT">false</boolProp>
-          <boolProp name="ISREGEX">true</boolProp>
-        </JSONPathAssertion>
-        <hashTree/>
         <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="Assertion Results" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
