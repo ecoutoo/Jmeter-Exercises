@@ -33,7 +33,7 @@ the Spike test checks performance when there are sudden short bursts or spikes o
 point and application stability. The thread user count in this test in unlikley to break an application but serves as an example of the thread graph shape required in a stress test.
 This result information is saved in a html report and a csv file.
 
-CRUDTest: This test checks the Create, Read, Update and Delete functionality for both list and items for to do list API I created in a previous [repository](https://github.com/ecoutoo/ToDoList)
+CRUDTest: This test checks the Create, Read, Update and Delete functionality for both list and items for to do list API I created in a previous [repository](https://github.com/ecoutoo/ToDoList) The test then also does a Load, Spike and Stress test to check performance. There is Soak test also featured but it has not been run as Soak tests take time to run.
 
 ## Built With
 
